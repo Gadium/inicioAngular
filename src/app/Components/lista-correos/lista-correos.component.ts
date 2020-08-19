@@ -15,14 +15,16 @@ export class ListaCorreosComponent implements OnInit {
       titulo: "Titulo del 1",
       cuerpo: 'Lorem fistrum ese hombree diodeno está la cosa muy malar te voy a borrar el cerito. Jarl diodenoo ese que llega se calle ustée a wan qué dise usteer a gramenawer. Diodenoo mamaar benemeritaar está la cosa muy malar condemor fistro fistro amatomaa. Hasta luego Lucas llevame al sircoo se calle ustée está la cosa muy malar. Caballo blanco caballo negroorl tiene musho peligro qué dise usteer ese pedazo de qué dise usteer mamaar papaar papaar ese pedazo de te voy a borrar el cerito.',
       emisor: 'correoEmisor1@gmail.com',
-      destinatario: 'correoDestino1@gmail.com'
+      destinatario: 'correoDestino1@gmail.com',
+      leido: true
     };
 
     const correo2 = {
       titulo: "Titulo del 2",
       cuerpo: 'Lorem fistrum ese hombree diodeno está la cosa muy malar te voy a borrar el cerito. Jarl diodenoo ese que llega se calle ustée a wan qué dise usteer a gramenawer. Diodenoo mamaar benemeritaar está la cosa muy malar condemor fistro fistro amatomaa. Hasta luego Lucas llevame al sircoo se calle ustée está la cosa muy malar. Caballo blanco caballo negroorl tiene musho peligro qué dise usteer ese pedazo de qué dise usteer mamaar papaar papaar ese pedazo de te voy a borrar el cerito.',
       emisor: 'correoEmisor2@gmail.com',
-      destinatario: 'correoDestino@gmail2.com'
+      destinatario: 'correoDestino@gmail2.com',
+      leido: false
     };
 
     this.correos = [];
