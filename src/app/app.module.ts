@@ -10,6 +10,7 @@ import { NuevoCorreoComponent } from './Components/nuevo-correo/nuevo-correo.com
 import { AvisosComponent } from './Components/avisos/avisos.component';
 import { CorreosRecibidosComponent } from './Views/correos-recibidos/correos-recibidos.component';
 import { LoginComponent } from './Components/login/login.component';
+
 @NgModule({
   declarations: [
     AppComponent,
